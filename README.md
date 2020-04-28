@@ -1,3 +1,16 @@
+# Counter Lab - Class and Component Based
+__Version__ 1.0.1  
+__Author__ Peter Cole
+
+## Overview
+- Create a vanilla React app that increments a number rendered to the DOM with increment/decrement buttons
+- Display intuitive Sass changes as the number is manipulated.
+
+## Developer Notes
+- Developed using `yarn`, not `npm`
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
