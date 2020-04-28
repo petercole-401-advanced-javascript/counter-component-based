@@ -1,0 +1,29 @@
+#counter {
+	margin: 10px;
+	padding: 10px;
+	border: solid 1px #000;
+	color: #000;
+	text-decoration: none;
+}
+
+button {
+	margin: 10px;
+	padding: 10px;
+	background-color: #FF9933;
+	border-style: none;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+}
+
+#number {
+	color: green;
+}
+
+/* #up {
+
+}
+
+#down {
+
+} */
