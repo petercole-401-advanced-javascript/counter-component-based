@@ -5,6 +5,7 @@ __Author__ Peter Cole
 ## Overview
 - Create a vanilla React app that increments a number rendered to the DOM with increment/decrement buttons
 - Display intuitive scss changes as the number is manipulated
+- Published at [https://peter7cole.github.io/](https://peter7cole.github.io/)
 
 ## Developer Notes
 - Developed using `yarn`, not `npm`
