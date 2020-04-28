@@ -1,3 +1,7 @@
 #footer {
-  color: #333;
+  position: absolute;
+  bottom: 1%;
+  width: 99%;
+  color: #fff; 
+  background: #333;
 }

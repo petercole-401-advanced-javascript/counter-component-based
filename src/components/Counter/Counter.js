@@ -35,17 +35,25 @@ class Counter extends Component {
 		return (
 			<div id="counter">
 				<p>
-					The number is:{' '}
-					<span id="number" style={this.getNumberColor(this.state.number)}>
+					The Number:{' '}
+					<span
+						id="number"
+						class="font-strong"
+						style={this.getNumberColor(this.state.number)}
+					>
 						{this.state.number}
 					</span>
 				</p>
-				<button id="up" onClick={this.onIncrement}>
-					UP
-				</button>
-				<button id="down" onClick={this.onDecrement}>
-					DOWN
-				</button>
+				<div>
+					<button class="font-strong" onClick={this.onIncrement}>
+						↑
+					</button>
+				</div>
+				<div>
+					<button class="font-strong" onClick={this.onDecrement}>
+						↓
+					</button>
+				</div>
 			</div>
 		);
 	}

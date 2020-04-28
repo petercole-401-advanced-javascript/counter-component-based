@@ -1,29 +1,31 @@
 #counter {
-	margin: 10px;
-	padding: 10px;
-	border: solid 1px #000;
+	margin: auto;
+	padding: 20px;
 	color: #000;
 	text-decoration: none;
 }
 
 button {
-	margin: 10px;
+	margin: 2px;
 	padding: 10px;
 	background-color: #FF9933;
 	border-style: none;
 	color: #fff;
 	cursor: pointer;
 	outline: none;
+	border-radius: 40%;
 }
 
 #number {
-	color: green;
+	color: #000;
+	text-shadow:
+		-1px -1px 0 #eee,
+		1px -1px 0 #eee,
+		-1px 1px 0 #eee,
+		1px 1px 0 #eee;
 }
 
-/* #up {
-
+.font-strong {
+	font-weight: bolder;
+	font-size: 130%;
 }
-
-#down {
-
-} */
